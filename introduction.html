@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTXinChinese Intro</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/93028de2f2.js" crossorigin="anonymous"></script>
+
+<!--Custom Stylesheet-->
+    <!--link rel="stylesheet" href="./CSS/aboutUs_style.css"-->
+    <link rel="stylesheet" href="./CSS/intro_style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<header class="bg-dark">
+<a class="logo" href="./index.html"><img class="logo" src="./images/GTX_logo_E1.jpg"  alt="logo" width="60"  height="60" ></a>
+    <div class="logo"><h4> <b>www.glotradex.com</b></h4></div>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="./proposal.html">計劃書</a></li>
+            <li><a href="./introduction.html">視頻介紹</a></li>
+            <li><a href="./index.html">主頁</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="./contactUs.html"><button>聯絡我們</button></a>
+</header>
+
+<body>
+
+    <div class="container">
+        <h1>怎樣跟貿世通一起工作??  </h1>
+        <div class="row">
+            <div class="col">
+                <div class="feature-img">
+                    <img src="./images/Port of Hong Kong 3.jpg"  width="100%">
+                    <!--img src="./images/Port of Hong Kong 3.jpg"  width="100%"-->
+                    <!--img src="./images/btn-play-video_01.png" class="play-btn" width="60" height="60"
+                    onclick="playVideo('./video/Coprofile.mp4')"-->
+                    <li><a href="https://www.bilibili.com/video/BV1zb4y1f79B?share_source=copy_web"><h3>&nbsp;   貿世通簡介</h3></a></li>
+                    <!--iframe width="450" height="315" src="https://www.youtube.com/embed/LwPqtZhGYcs" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
+    
+                    <div class="text-block">
+                        <h5>Hello world</h5>
+                        <p>What a beautiful sunrise ! What is GLOTRADEX??</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <iframe src="https://player.bilibili.com/player.html?aid=375626882&bvid=BV1vo4y1m7ot&cid=342445651&page=1" scrolling="no" border="0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+                        <!--iframe  src="https://www.youtube.com/embed/yMNcQ6SOG4Y" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
+                    </div>
+			<li><a href="https://www.bilibili.com/video/BV1vo4y1m7ot"><h5>&nbsp;   怎樣可以成為貿世通會員 ??</h5></a><li>
+
+                    <!--p>怎樣可以成為貿世通會員 ??</p-->
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <iframe src="https://player.bilibili.com/player.html?aid=845660624&bvid=BV1h54y1L7cc&cid=342443973&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                        <!--iframe  src="https://www.youtube.com/embed/XgUXSg79Yog" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
+                    </div>
+				<li><a href="https://www.bilibili.com/video/BV1h54y1L7cc"><h5>&nbsp;   怎樣使用客戶服務中心 ??</h5></a><li>
+
+                    <!--p>怎樣使用貿世通的客戶服務中心 ??</p-->
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <iframe src="https://player.bilibili.com/player.html?aid=290665264&bvid=BV1if4y1Y7V8&cid=342444802&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                        <!--iframe  src="https://www.youtube.com/embed/zHtxTa8G7_8" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
+                    </div>
+				<li><a href="https://www.bilibili.com/video/BV1if4y1Y7V8"><h5>&nbsp;   怎樣聯絡海外代理商 ??</h5></a><li>
+                    <!--p>怎樣聯絡貿世通的海外代理商 ??</p-->
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="./video/GTX_frontPage 1.mp4" type="video/mp4">
+        </video>
+        <img src="./images/close-button-01.png" class="close-btn"
+        onclick="stopVideo()">
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+
+    function stopVideo() {
+
+        videoPlayer.style.display = "none";
+
+    }
+
+    function playVideo(file) {
+
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+    }
+
+</script>
+
+
+
+</body>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark p-0" >
+        <h6 class="m-0 text-center text-white">Copyright &copy; www.glotradex.com 2021</h6>
+   </footer>
+
+
+</html>
