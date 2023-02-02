@@ -93,6 +93,14 @@ nav {
 .nav_links li a:hover {
     color: #0088a9;
 }
+/* Section - Desp*/
+
+.desp {
+	border : 4px solid limegreen;
+	width: min(100% - 3rem);
+	margin-inline: auto;
+	padding: 30px;
+}
 
 .cta {
     order: 1;
@@ -131,7 +139,7 @@ section{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: crimson;
 }
 
@@ -140,6 +148,17 @@ section{
 }
 
 
+.hWord {
+	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","????", STXihei, "????", sans-serif;
+	text-align: center;
+	letter-spacing: 4px;
+	font-size: 1.5rem;
+	padding: 40px;
+}
+
+p{
+	letter-spacing: 2px;
+}	
 main {
     padding: 2em;
     margin: 0;
@@ -153,6 +172,7 @@ main {
 main, p {
     color: var(--clr-primary-900);
     padding: 3em;
+	font-size: 1.2rem;
 }
 
 main, h1 {
@@ -168,6 +188,7 @@ h2  {
 h3 {
     text-align: center;
     color: blueviolet;
+	font-size: 1.4rem;
 }
 
 footer {
